@@ -29,13 +29,21 @@ The "Money Shot." A wavepacket is fired at a wall with two narrow slits. The res
 | Initial Interference | Interference after reflection off walls |
 |----------|----------|
 | ![](plots/2d_mid.png) | ![](plots/2d_end.png) |
+
+
 ![2D Plot](plots/2d.gif)
+
+
 ### 3D: Probability Clouds
 Scales the simulation to a $64 \times 64 \times 64$ voxel grid, visualizing the evolution of a 3D wavepacket contained within hard-walled boundaries.
 | 3D Slice | 3D Plot |
 |----------|----------|
 | ![](plots/3d_slice.png) | ![](plots/3d_plot.png) |
+
+
 ![3D Plot](plots/3d.gif)
+
+
 ## Usage
 
 The engine is controlled via a simple command-line interface.
