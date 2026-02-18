@@ -14,7 +14,7 @@ Built with **PyTorch**, the engine leverages **GPU acceleration (CUDA)** to scal
 ## How it Works: The Local Rule
 Most quantum solvers act on the entire Hilbert space simultaneously. `QuantumCML` treats space as a grid where each cell $(i, j, k)$ holds a complex amplitude. The cell updates its state based solely on its immediate neighbors using a discrete Laplacian stencil:
 
-$$\nabla^2\psi_{i,j} \approx \frac{\psi_{i+1,j} + \psi_{i-1,j} + \psi_{i,j+1} + \psi_{i,j-1} - 4\psi_{i,j}}{\Delta x^2}$$
+$$\nabla^2\psi_{i,j,k} \approx \frac{\psi_{i+1,j,k} + \psi_{i-1,j,k} + \psi_{i,j+1,k} + \psi_{i,j-1,k} + \psi_{i,j,k+1} + \psi_{i,j,k-1} - 6\psi_{i,j}}{\Delta x^3}$$
 
 By interleaving the updates of the Real and Imaginary components, the simulation maintains the unitary nature of quantum evolution.
 
@@ -26,11 +26,15 @@ Verification of the fundamental "spreading" of a Gaussian packet in free space.
 
 ### 2D: Double Slit Interference
 The "Money Shot." A wavepacket is fired at a wall with two narrow slits. The resulting constructive and destructive interference fringes emerge naturally from the grid interactions.
-![2D Interference](plots/2d_mid.png)
+| Initial Interference | Interference after reflection off walls |
+|----------|----------|
+| ![](plots/2d_mid.png) | ![](images/2d_end.png) |
 
 ### 3D: Probability Clouds
 Scales the simulation to a $64 \times 64 \times 64$ voxel grid, visualizing the evolution of a 3D wavepacket contained within hard-walled boundaries.
-![3D Projection](plots/3d_slice.png)
+| 3D Slice | 3D Plot |
+|----------|----------|
+| ![](plots/3d_slice) | ![](plots/3d_plot) |
 
 ## Usage
 
