@@ -23,15 +23,18 @@ By interleaving the updates of the Real and Imaginary components, the simulation
 ### 1D: Wavepacket Dispersion
 Verification of the fundamental "spreading" of a Gaussian packet in free space.
 ![1D Dispersion](plots/1d_free.png)
-![1D Plot](plots/1d.gif)
+<p align="center">
+  <img src="plots/1d.gif" alt="1D Plot">
+</p>
 ### 2D: Double Slit Interference
 The "Money Shot." A wavepacket is fired at a wall with two narrow slits. The resulting constructive and destructive interference fringes emerge naturally from the grid interactions.
 | Initial Interference | Interference after reflection off walls |
 |----------|----------|
 | ![](plots/2d_mid.png) | ![](plots/2d_end.png) |
 
-
-![2D Plot](plots/2d.gif)
+<p align="center">
+  <img src="plots/2d.gif" alt="2D Plot">
+</p>
 
 
 ### 3D: Probability Clouds
@@ -41,7 +44,9 @@ Scales the simulation to a $64 \times 64 \times 64$ voxel grid, visualizing the 
 | ![](plots/3d_slice.png) | ![](plots/3d_plot.png) |
 
 
-![3D Plot](plots/3d.gif)
+<p align="center">
+  <img src="plots/3d.gif" alt="3D Plot">
+</p>
 
 
 ## Usage
