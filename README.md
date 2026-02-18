@@ -26,11 +26,14 @@ Verification of the fundamental "spreading" of a Gaussian packet in free space.
 <p align="center">
   <img src="plots/1d.gif" alt="1D Plot">
 </p>
+
+
 ### 2D: Double Slit Interference
 The "Money Shot." A wavepacket is fired at a wall with two narrow slits. The resulting constructive and destructive interference fringes emerge naturally from the grid interactions.
 | Initial Interference | Interference after reflection off walls |
 |----------|----------|
 | ![](plots/2d_mid.png) | ![](plots/2d_end.png) |
+
 
 <p align="center">
   <img src="plots/2d.gif" alt="2D Plot">
