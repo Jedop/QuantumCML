@@ -52,8 +52,8 @@ python main.py 3
 ```
 
 ## Dependencies
-*   Python 3.8+
-*   PyTorch (CUDA recommended for 3D)
+*   Python 3.12+
+*   PyTorch (CUDA recommended)
 *   Matplotlib
 *   NumPy
 
