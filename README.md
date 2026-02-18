@@ -28,7 +28,7 @@ Verification of the fundamental "spreading" of a Gaussian packet in free space.
 The "Money Shot." A wavepacket is fired at a wall with two narrow slits. The resulting constructive and destructive interference fringes emerge naturally from the grid interactions.
 | Initial Interference | Interference after reflection off walls |
 |----------|----------|
-| ![](plots/2d_mid.png) | ![](images/2d_end.png) |
+| ![](plots/2d_mid.png) | ![](plots/2d_end.png) |
 
 ### 3D: Probability Clouds
 Scales the simulation to a $64 \times 64 \times 64$ voxel grid, visualizing the evolution of a 3D wavepacket contained within hard-walled boundaries.
